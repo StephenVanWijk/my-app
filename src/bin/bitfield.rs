@@ -3,6 +3,7 @@
 
 use my_app as _; // global logger + panicking-behavior + memory layout
 
+
 #[cortex_m_rt::entry]
 fn main() -> ! {
     // value of the FREQUENCY register (nRF52840 device; RADIO peripheral)
